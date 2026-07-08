@@ -12,7 +12,7 @@ const BRAND = {
 };
 // ── Style system ──────────────────────────────────────────
 const S = {
-  };
+
 const S = {
   app:     { fontFamily: "'Inter', system-ui, sans-serif", background: BRAND.navy, minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center" },
   phone:   { width: "100%", maxWidth: 480, minHeight: "100vh", background: BRAND.offWhite, display: "flex", flexDirection: "column", position: "relative", overflow: "hidden" },
