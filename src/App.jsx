@@ -269,7 +269,7 @@ const S = {
   lbl:     { fontSize: 11, fontWeight: 700, color: BRAND.muted, marginBottom: 5, display: "block", letterSpacing: 0.5, textTransform: "uppercase" },
   input:   { width: "100%", padding: "11px 13px", borderRadius: 9, border: `1.5px solid ${BRAND.border}`, fontSize: 15, background: BRAND.white, outline: "none", boxSizing: "border-box", fontFamily: "inherit", color: BRAND.text },
   btn:     (v = "primary") => ({
-    width: "100%", padding: "13px", borderRadius: 10, border: "none",
+    width: "100%", padding: "13px", borderRadius: 10,
     fontWeight: 700, fontSize: 15, cursor: "pointer", fontFamily: "inherit", marginTop: 6,
     background: v === "primary" ? BRAND.navy : v === "gold" ? BRAND.gold : v === "danger" ? "#DC2626" : v === "active" ? BRAND.navy : v === "ghost" ? "transparent" : BRAND.offWhite,
     color: v === "ghost" ? BRAND.text : v === "gold" ? BRAND.navy : v === "active" ? BRAND.gold : BRAND.white,
